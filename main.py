@@ -500,8 +500,8 @@ while True:
       
   elif selection == 5:
       while True :
-        selection_ = input("Enter student ID No: ").strip()
-        search_for_student(selection_)
+        selection = input("Enter student ID No: ").strip()
+        search_for_student(selection)
         if selection == "#":
           print("Back to Main Menu")
           break
