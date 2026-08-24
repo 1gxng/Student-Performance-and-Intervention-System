@@ -6,7 +6,7 @@ The program contributers were: **FCC Group 2**:
 | Member | Student Number |
 |---|---|
 | Eugene Mwangangi | 224381 |
-| Kennedy Odunga | —  |
+| Kennedy Odunga | 73628 |
 | Horace Ouma Otieno | 169702 |
 | Mulei Mutuku | 230016 |
 | Kiprop Amos | 225346  |
