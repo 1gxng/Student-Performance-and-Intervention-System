@@ -499,13 +499,17 @@ while True:
     view_intervention_list(valid_students)
       
   elif selection == 5:
-      while True :
-        selection = input("Enter student ID No: ").strip()
-        search_for_student(selection)
+      while True:
+        selection = input("Enter student ID No (or '#' to exit): ").strip()
+        
+        # Check for exit condition FIRST
         if selection == "#":
-          print("Back to Main Menu")
-          break
-        print('\nEnter #: To Exit To Main Menu')
+            print("Back to Main Menu")
+            break
+            
+        # search student
+        search_for_student(selection)
+     
 
   elif selection == 6:
     print("Program closed.")
