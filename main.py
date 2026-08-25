@@ -236,7 +236,6 @@ def validate_records(records):
       reasons = []
 
       # 1. Student ID and programme are provided
-      record['student_id']
       if not record.get("student_id"):
           is_valid = False
           reasons.append("Missing Student ID")
